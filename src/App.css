@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -14,18 +16,17 @@ form {
    width: 80%;
 }
 
+h2 {
+   font-family: 'DynaPuff', cursive;
+  padding: .7em;
+}
+
 .card_containerr {
-
    background: url('./img/img3.jpg') no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-   
-
-
-
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
 
 .cards {
@@ -40,40 +41,41 @@ background-size: cover;
    gap: 2em 6em;
    padding: 1.5em;
 }
-.card-title{
+.card-title {
    text-align: center;
-   font-size:1.5em;
+   font-size: 1.5em;
 }
-
-
 
 .LocationInfo {
    background-color: #212121;
 
- color: white;
- text-align: center;
+   color: white;
+   text-align: center;
 }
 
 .bordesito {
+   
    width: 100%;
-    border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  border: 2px solid #FAFD7CFF;
+   border-top-left-radius: 40px;
+   border-top-right-radius: 40px;
+   border: 2px solid #fafd7cff;
+}
+.bordesito li {
+   font-size: 1.2em;
+   font-family: 'DynaPuff', cursive;
 }
 
-.info ul{
- display: flex;
- justify-content: space-around;
- flex-wrap: wrap;
-   
 
- 
+.info ul {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 
 h1 {
    z-index: 5000;
-font-size: 50em;}
-   
+   font-size: 50em;
+}
 
 /* Card */
 
@@ -93,12 +95,13 @@ font-size: 50em;}
    align-items: flex-start;
 }
 
+h3 {
+   font-family: 'DynaPuff', cursive;
+}
+
 span {
    font-weight: bold;
 }
-
-
-
 
 /* Status */
 
@@ -107,7 +110,6 @@ span {
    height: 1rem;
    width: 1rem;
    border-radius: 50%;
-
 }
 
 .status {
@@ -115,15 +117,16 @@ span {
 }
 
 .status h4 {
+font-family: 'Oswald', sans-serif;
    font-size: 22px;
 }
 
 .sta {
    background-color: black;
-  border-radius: 10px;
-  width: auto;
+   border-radius: 10px;
+   width: auto;
    max-width: 50%;
-padding:0 .7em;
+   padding: 0 0.7em;
 
    color: white;
    font-size: 8px;
@@ -136,8 +139,6 @@ padding:0 .7em;
    top: 10px;
    left: 10px;
 }
-
-
 
 .Alive {
    background: green;
@@ -163,11 +164,10 @@ padding:0 .7em;
 }
 
 .Contenedor_header img {
-width: 80%;
+   width: 80%;
 }
 
 .loading {
-  
    background-color: red;
    font-family: 'Mouse Memoirs', sans-serif;
    display: flex;
@@ -185,21 +185,21 @@ width: 80%;
    width: 70%;
 
    color: white;
-  background-color: #212121;
-  
-  height: 40px;
-  padding: 10px;
-  text-align: center;
-  border: 2px solid white;
-  border-radius: 5px;
-  box-shadow: 3px 3px 2px rgb(249, 255, 85);
+   background-color: #212121;
+
+   height: 40px;
+   padding: 10px;
+   text-align: center;
+   border: 2px solid white;
+   border-radius: 5px;
+   box-shadow: 3px 3px 2px rgb(249, 255, 85);
 }
 
 .input:focus {
-  color: rgb(0, 255, 255);
-  background-color: #212121;
-  outline-color: rgb(0, 255, 255);
-  box-shadow: -3px -3px 15px rgb(0, 255, 255);
-  transition: .4s;
-  transition-property: box-shadow;
+   color: rgb(0, 255, 255);
+   background-color: #212121;
+   outline-color: rgb(0, 255, 255);
+   box-shadow: -3px -3px 15px rgb(0, 255, 255);
+   transition: 0.4s;
+   transition-property: box-shadow;
 }
