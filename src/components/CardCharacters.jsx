@@ -10,7 +10,7 @@ const CardCharacters = ({ url }) => {
 
 setTimeout(() => {
    setIsLoading(false)
-}, 2650);
+}, 3000);
    
 
 
