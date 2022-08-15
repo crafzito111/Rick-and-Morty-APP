@@ -4,6 +4,7 @@ const Footer = () => {
    return (
       <div className="footer">
          <div className="este">
+            <h3>Elaborado por Carlos Prado  </h3>
             <button className="btn-cssbuttons">
                <span>Socials</span>
                <span>

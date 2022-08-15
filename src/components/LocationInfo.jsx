@@ -9,7 +9,7 @@ const LocationInfo = ({location}) => {
           <ul>
             <li><span>Type: </span>{location?.type}</li>
             <li><span>Dimension: </span>{location?.dimension}</li>
-            <li><span>Populatuon: </span>{location?.residents.length}</li>
+            <li><span>Population: </span>{location?.residents.length}</li>
           </ul>
         </div>
        

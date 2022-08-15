@@ -203,3 +203,21 @@ font-family: 'Oswald', sans-serif;
    transition: 0.4s;
    transition-property: box-shadow;
 }
+ 
+
+.este {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1em;
+   color: white;
+   
+}
+
+.este h3 {
+   font-family: 'Oswald', sans-serif;
+   font-size: 15px;
+    border: 2px solid #69C8ECFF;
+    border-radius: 20px;
+    padding: 5px;
+}
