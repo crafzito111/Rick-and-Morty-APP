@@ -18,7 +18,7 @@ form {
 
 h2 {
    font-family: 'DynaPuff', cursive;
-  padding: .7em;
+   padding: 0.7em;
 }
 
 .card_containerr {
@@ -54,7 +54,6 @@ h2 {
 }
 
 .bordesito {
-   
    width: 100%;
    border-top-left-radius: 40px;
    border-top-right-radius: 40px;
@@ -64,7 +63,6 @@ h2 {
    font-size: 1.2em;
    font-family: 'DynaPuff', cursive;
 }
-
 
 .info ul {
    display: flex;
@@ -78,7 +76,6 @@ h1 {
 }
 
 /* Card */
-
 
 .card {
    height: 274px;
@@ -117,7 +114,7 @@ span {
 }
 
 .status h4 {
-font-family: 'Oswald', sans-serif;
+   font-family: 'Oswald', sans-serif;
    font-size: 22px;
 }
 
@@ -203,21 +200,20 @@ font-family: 'Oswald', sans-serif;
    transition: 0.4s;
    transition-property: box-shadow;
 }
- 
 
-.este {
+.footer_info {
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 1em;
    color: white;
-   
 }
 
-.este h3 {
+.footer_info h3 {
    font-family: 'Oswald', sans-serif;
    font-size: 15px;
-    border: 2px solid #69C8ECFF;
-    border-radius: 20px;
-    padding: 5px;
+   text-decoration: underline  rgb(249, 255, 85);
+   border-radius: 20px;
+   padding: 10px 25px;
+  
 }
