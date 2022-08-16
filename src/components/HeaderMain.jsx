@@ -3,7 +3,7 @@ import useFetch from '../hooks/useFetch';
 
 import logo from '../img/logo rick and morty.svg'
 
-const HeaderMain = ({ handleSubmit, location}) => {
+const HeaderMain = ({ handleSubmit, location, handleFilter }) => {
 
 
 
@@ -14,7 +14,7 @@ const HeaderMain = ({ handleSubmit, location}) => {
   <img src={logo} alt="" />
       <form onSubmit={handleSubmit}>
 
-      <input placeholder="Search 🔍..." className="input" name="text" type="text" />
+        <input id='search' placeholder="Search 🔍..." className="input" onChange={handleFilter} name="text" type="text" />
       </form>
  </div>
 

@@ -27,8 +27,8 @@ function App() {
 
    // Busqueda por input
 
-   const handleSubmit = (e) => {
-      e.preventDefaul();
+   const handleSubmit = e => {
+      e.preventDefault();
       setsearchInput(e.target.search.value);
    };
    //
